@@ -8,7 +8,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 /* Regular */
 @font-face {
     font-family: 'SourceSansProReg';
-        src: url('../fonts/SourceSansPro-Regular.ttf');
+        src: url('https://lights-and-shadows.github.io/fonts/SourceSansPro-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 /* Italic */
 @font-face {
     font-family: 'SourceSansProItalic';
-        src: url("../fonts/SourceSansPro-Italic.ttf");
+        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-Italic.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -24,7 +24,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 /* Bold */
 @font-face {
     font-family: 'SourceSansProBold';
-        src: url("../fonts/SourceSansPro-Bold.ttf");
+        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-Bold.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -32,7 +32,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 /* Bold Italic */
 @font-face {
     font-family: 'SourceSandsProBoldItalic';
-        src: url("../fonts/SourceSansPro-BoldItalic.ttf");
+        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-BoldItalic.ttf");
     font-weight: normal;
     font-style: normal;
 }
