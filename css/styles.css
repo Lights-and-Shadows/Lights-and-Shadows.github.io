@@ -23,16 +23,16 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 
 /* Bold */
 @font-face {
-    font-family: 'Source Sans Pro Bold';
-        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-Bold.ttf");
+    font-family: 'Source Sans Pro Semi Bold';
+        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-SemiBold.ttf");
     font-weight: normal;
     font-style: normal;
 }
 
 /* Bold Italic */
 @font-face {
-    font-family: 'Source Sands Pro Bold Italic';
-        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-BoldItalic.ttf");
+    font-family: 'Source Sands Pro Semi Bold Italic';
+        src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-SemiBoldItalic.ttf");
     font-weight: normal;
     font-style: normal;
 }
