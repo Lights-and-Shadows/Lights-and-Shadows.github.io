@@ -7,7 +7,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 /* CUSTOM FONT STYLING */
 /* Regular */
 @font-face {
-    font-family: 'SourceSansProReg';
+    font-family: 'Source Sans Pro';
         src: url('https://lights-and-shadows.github.io/fonts/SourceSansPro-Regular.ttf');
     font-weight: normal;
     font-style: normal;
@@ -15,7 +15,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 
 /* Italic */
 @font-face {
-    font-family: 'SourceSansProItalic';
+    font-family: 'Source Sans Pro Italic';
         src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-Italic.ttf");
     font-weight: normal;
     font-style: normal;
@@ -23,7 +23,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 
 /* Bold */
 @font-face {
-    font-family: 'SourceSansProBold';
+    font-family: 'Source Sans Pro Bold';
         src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-Bold.ttf");
     font-weight: normal;
     font-style: normal;
@@ -31,7 +31,7 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 
 /* Bold Italic */
 @font-face {
-    font-family: 'SourceSandsProBoldItalic';
+    font-family: 'Source Sands Pro Bold Italic';
         src: url("https://lights-and-shadows.github.io/fonts/SourceSansPro-BoldItalic.ttf");
     font-weight: normal;
     font-style: normal;
@@ -52,7 +52,7 @@ body, html {
     padding-bottom: 7.5rem;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'SourceSansProBold', arial, sans-serif;
+    font-family: 'Source Sans Pro Bold', sans-serif;
     font-weight: bold;
 }
 .content-section-heading h2 {
