@@ -53,7 +53,6 @@ body, html {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Sans Pro Semi Bold', sans-serif;
-    font-weight: bold;
 }
 .content-section-heading h2 {
     font-size: 3rem;
@@ -63,3 +62,60 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem;
     text-transform: uppercase;
 }
+
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+
+/* Map */
+.map {
+    height: 30rem;
+}
+
+@media (max-width: 992px)
+{
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background: rgba(52,58,64,0.5);
+    line-height: 45px;
+}
+
+.scroll-to-top:focus, .scroll-to-top:hover {
+    color: white;
+}
+
+.scroll-to-top:hover {
+    background: #343a40;
+}
+
+.scroll-to-top i {
+    font-family: 'Source Sans Pro Italic', sans-serif;
+    font-weight: 800;
+}
+
+/*.masthead {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, url())
+} */
