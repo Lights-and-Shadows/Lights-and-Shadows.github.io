@@ -3,11 +3,57 @@
 This is my custom theme for the portfolio, based a little on Stylish Portfolio from Start Bootstrap.
 
 */
+
+/* CUSTOM FONT STYLING */
+/* Regular */
+@font-face {
+    font-family: 'SourceSansProReg';
+        src: url('../fonts/SourceSansPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'SourceSansProItalic';
+        src: url("../fonts/SourceSansPro-Italic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'SourceSansProBold';
+        src: url("../fonts/SourceSansPro-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'SourceSandsProBoldItalic';
+        src: url("../fonts/SourceSansPro-BoldItalic.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* REGULAR CONTENT */
 body, html {
     width: 100%;
     height: 100%;
 }
 
-body {
-    font-family: 'Source Sans Pro';
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+    font-size: 3rem;
+    font-family: 'SourceSansPro-Bold', arial, sans-serif;
+    font-weight: bold;
 }
