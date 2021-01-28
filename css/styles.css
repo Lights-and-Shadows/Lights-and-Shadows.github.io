@@ -51,9 +51,15 @@ body, html {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'SourceSansProBold', arial, sans-serif;
+    font-weight: bold;
+}
 .content-section-heading h2 {
     font-size: 3rem;
-    font-family: 'SourceSansPro-Bold', arial, sans-serif;
-    font-weight: bold;
+}
+
+.content-section-heading h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
 }
