@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: rgba(220, 100, 20, 0.3);
+    background: rgba(160, 100, 20, 1);
 } 
 
 .masthead h1 {
