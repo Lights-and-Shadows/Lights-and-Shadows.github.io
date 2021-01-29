@@ -117,12 +117,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, url("../img/cave.png"));
-    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, url("../img/cave.png"));
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover cover;
+    background: rgba(220, 100, 20, 0.3);
 } 
 
 .masthead h1 {
