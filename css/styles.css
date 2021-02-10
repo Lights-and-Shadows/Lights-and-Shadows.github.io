@@ -364,3 +364,8 @@ ul li p {
 .dark {
     color: #fff;
 }
+
+.project-image {
+    margin: 0 auto;
+    width: 85%;
+}
