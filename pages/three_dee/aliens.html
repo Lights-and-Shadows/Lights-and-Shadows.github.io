@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Jamie Roeger -- Game Designer / Artist</title>
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Project: Aliens?</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About Me</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Featured Projects</a>
+        </li>
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="projects_dir.html">Project Categories</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1">Aliens?</h1>
+        <h3 class="mb-5">
+          <em>3D Science Fiction FPS Demo</em>
+        </h3>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>What is <em>Aliens?</em></h2>
+            <p class="lead mb-5"><em>Aliens?</em> is the result for one of my class projects. The class was focused on learning
+            Autodesk Maya for content creation, primarily of weapon assets. Our first task involved making the scene itself -- I
+            chose to make a relatively simple spaceship corridor scene (reference images are from Artstation, directly inspired by the
+            <em>Aliens</em> franchise, hence the title). From there, we had to make our weapon. In my case, I followed a diagram
+            for a SCAR-L assault rifle, complete with suppressor and reflex sight. We also had to rig and animate the weapon as well,
+            and then port it all into Unity and make a simple test environment.</p>
+            <img src="../../img/aliens_ingame.png" />
+            <p class="mb-5">The image above is a screenshot of how it looks. I had used a free UI asset from the Unity Asset Store 
+                in order to design both the main menu screen as well as the interface for the player's ammunition and the pause menu. 
+                <hr/>
+                The weapon model is rigged and animated to the point where the bolt mechanism actually fires when the player intends
+                to shoot. In addition, it also animates when the player selects a different fire rate, and has an alternate reloading
+                animation when the weapon's magazine is empty. Aiming down the sights, however, is admittedly a little wonky; it 
+                stabilizes when you fire a round. 
+            </p>
+            <p class="mb-5">The environment itself incorporates the floor being separated into two sections, so the player can crawl 
+                underneath. There are open sections of the floor (the raised grates) that the player can jump down into and back up 
+                from. To obtain more ammunition, you simply walk up to the wooden crate with "CAUTION: LIVE ORGANISMS" on it and 
+                press E.
+            </p>
+            <img src="../../img/aliens_aiming.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/Lights-and-Shadows/">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://steamcommunity.com/id/metal_is_life/">
+              <i class="icon-social-steam"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Jamie Roeger 2021</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="icon-arrow-up icons"></i>
+    </a>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Plugin Javascript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom Template Scripts -->
+    <script src="js/portfolio.js"></script>
+  </body>
+</html>
