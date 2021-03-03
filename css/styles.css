@@ -123,6 +123,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8rem;
 }
 
+.header-container {
+    width: 50%;
+    margin: 0 auto;
+    height: 4rem;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
 #index {
     background-image: url("../img/cave.png");
 }
