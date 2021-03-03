@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-container {
     width: 50%;
     margin: 0 auto;
-    height: 4rem;
+    height: 12rem;
     background: rgba(0,0,0,0.5);
     border-radius: 10px;
 }
