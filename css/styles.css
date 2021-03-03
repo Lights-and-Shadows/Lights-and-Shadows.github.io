@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #index h1, #index h3 {
-    color: #cc7a00;
+    color: #009213;
 }
 
 @media (min-width: 992px) {
