@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: rgba(160, 100, 20, 1);
+    background-image: url("../img/cave.png");
 } 
 
 .masthead h1 {
