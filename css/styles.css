@@ -123,11 +123,11 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 8rem;
 }
 
-.masthead #index {
+#index {
     background-image: url("../img/cave.png");
 }
 
-.masthead #projects {
+#projects {
     background: rgb(153, 118, 2);
 }
 
