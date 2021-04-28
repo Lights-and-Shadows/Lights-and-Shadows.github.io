@@ -6,6 +6,10 @@ This is my custom theme for the portfolio, based a little on Stylish Portfolio f
 
 /* CUSTOM FONT STYLING */
 /* Regular */
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Source Sans Pro';
         src: url('https://lights-and-shadows.github.io/fonts/SourceSansPro-Regular.ttf');
@@ -117,13 +121,32 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%, url(../img/cave.png))
-} 
+}
+
+.header-container {
+    width: 50%;
+    margin: 0 auto;
+    height: 12rem;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+#index {
+    background-image: url("../img/cave.png");
+}
+
+#projects {
+    background: rgb(153, 118, 2);
+}
 
 .masthead h1 {
     font-size: 4rem;
     margin: 0;
     padding: 0;
+}
+
+#index h1, #index h3 {
+    color: #009213;
 }
 
 @media (min-width: 992px) {
@@ -238,78 +261,40 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 30rem;
 }
 
-.portfolio-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
+.row {
+    margin: 8px -16px;
 }
 
-.portfolio-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(33, 37, 41, 0.2);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+.row,
+.row > .column {
+    padding: 8px;
 }
 
-.portfolio-item .caption .caption-content {
-    color: #fff;
-    margin: auto 2rem 2rem;
+.column {
+    float: left;
+    width: 25%;
 }
 
-.portfolio-item .caption .caption-content h2 {
-    font-size: 0.8rem;
-    text-transform: uppercase;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.portfolio-item .caption .caption-content p {
-    font-weight: 300;
-    font-size: 1.2rem;
+.content {
+    background-color: white;
+    padding: 10px;
 }
 
-@media (min-width: 992px) {
-    .portfolio-item {
-        max-width: none;
-        margin: 0;
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
     }
+}
 
-    .portfolio-item .caption {
-        transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out, background-color 0.7s;
-        transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(0px);
-        clip-path: inset(0px);
-    }
-
-    .portfolio-item .caption .caption-content {
-        transition: opacity 0.25s;
-        margin-left: 5rem;
-        margin-right: 5rem;
-        margin-bottom: 5rem;
-    }
-
-    .portfolio-item img {
-        transition: -webkit-clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out;
-        transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
-        -webkit-clip-path: inset(-1px);
-        clip-path: inset(-1px);
-    }
-
-    .portfolio-item:hover img {
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
-    }
-
-    .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, 0.9);
-        -webkit-clip-path: inset(2rem);
-        clip-path: inset(2rem);
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
     }
 }
 
@@ -389,4 +374,17 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
     color: #ecb807 !important;
+}
+
+ul li p {
+    text-align: left;
+}
+
+.dark {
+    color: #fff;
+}
+
+.project-image {
+    margin: 0 auto;
+    width: 85%;
 }

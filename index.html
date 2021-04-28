@@ -30,13 +30,141 @@
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Home</a>
         </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About Me</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a href="Resume.pdf">Resume</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Featured Projects</a>
+        </li>
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="projects_dir.html">Project Categories</a>
+        </li>
       </ul>
     </nav>
 
     <!-- Header -->
+    <header class="masthead d-flex" id="index">
+      <div class="container text-center my-auto">
+        <div class="header-container">
+          <h1 class="mb-1">Jamie Roeger</h1>
+          <h3 class="mb-5">
+            <em>Game Designer / Artist</em>
+          </h3>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Hello there!</h2>
+            <p class="lead mb-5">I'm Jamie, a gaming enthusiast and 3D modeling hobbyist, who wishes to ply 
+              his newfound technical chops into my own gaming content instead of always playing them. 
+              Not long after I got into gaming back in the early 2000's with the original Xbox console, 
+              I started wanting to create my own experiences. It was not until I started taking web design 
+              courses in middle school where I started building the foundation that would lead to where I
+               am now. Over the past 15 years, I have studied various programming languages which include: 
+               <em>Visual Basic</em>,
+               <em>C / C++ / C#</em>,
+               <em>Java / Javascript</em>, and
+               <em>Blitz3D</em>.</p>
+            <p class="lead mb-5">In addition to these, I have also been using Blender for six years, making three-dimensional
+              models as a hobbyist as well as for experimental renderings using the LuxRender
+               (now LuxCoreRender) rendering engine. I also have experience with Autodesk Maya and Rhinoceros 5.
+            </p>
+            <p class="lead mb-5">I am currently studying for my Associate's in Animation and Graphic Game Programming.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Snippet -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Featured Projects</h2>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <a href="pages/xr/candlepin.html">
+                <img src="img/candlepin.png" alt="" style="width: 100%;" />
+              </a>
+              <div class="h2">CandlepinVR</div>
+              <p class="mb-0">Team Size: Solo Project</p>
+              <p class="mb-0">Engine: Unity</p>
+              <p class="mb-0">Type: Sports, VR simulation</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <a href="pages/three_dee/aliens.html">
+                <img src="img/aliens_wall_decals.png" alt="" style="width: 100%;" />
+              </a>
+              <div class="h2">Aliens?</div>
+              <p class="mb-0">Team Size: Solo Project</p>
+              <p class="mb-0">Engine: Unity</p>
+              <p class="mb-0">Type: Sci-fi FPS</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <a href="#!">
+                <img src="img/purgatory_screenshot.png" alt="" style="width: 100%;" />
+              </a>
+              <div class="h2">Escape From Purgatory</div>
+              <p class="mb-0">Team Size: Four-person team</p>
+              <p class="mb-0">Engine: Unity</p>
+              <p class="mb-0">Type: Top-down roguelike, shoot-em-up</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+              <a href="pages/artwork/cave.html">
+                <img src="img/cave.png" alt="" style="width: 100%;" />
+              </a>
+              <div class="h2">Cave System</div>
+              <p class="mb-0">Team Size: Solo Project</p>
+              <p class="mb-0">Engine: Blender (Cycles renderer)</p>
+              <p class="mb-0">Type: Still Life, Fantasy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/Lights-and-Shadows/">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="https://steamcommunity.com/id/metal_is_life/">
+              <i class="icon-social-steam"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Jamie Roeger 2021</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="icon-arrow-up icons"></i>
+    </a>
 
     <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
     <!-- Plugin Javascript -->
